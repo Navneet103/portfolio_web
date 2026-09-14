@@ -1,0 +1,32 @@
+name: portfolio_web
+description: "A Senior Flutter Developer Portfolio"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  state_notifier: ^1.0.0
+  get_it: ^7.7.0
+  url_launcher: ^6.3.0
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pdf/
+    - assets/images/
+    - assets/images/profile/
+    - assets/images/projects/
+    - assets/images/blog/
