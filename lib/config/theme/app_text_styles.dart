@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'app_colors.dart';
 
 class AppTextStyles {
-  // Heading style - Space Grotesk (Tech, Modern, Distinctive)
+  // Heading style - Space Grotesk (Hero titles, section headings, major headings)
   static TextStyle get h1 => GoogleFonts.spaceGrotesk(
         fontSize: 64,
         fontWeight: FontWeight.w800,
@@ -26,7 +26,7 @@ class AppTextStyles {
         letterSpacing: -0.5,
       );
 
-  // Body style - Inter (Highly Legible, Standard for UI)
+  // Body style - Inter (Body text, navigation, buttons, cards, descriptions)
   static TextStyle get bodyLarge => GoogleFonts.inter(
         fontSize: 18,
         fontWeight: FontWeight.w400,
@@ -47,7 +47,7 @@ class AppTextStyles {
         color: AppColors.textSecondary,
       );
 
-  // Specialized styles - JetBrains Mono (Technical)
+  // Technical style - JetBrains Mono (Code snippets, technical labels, developer-focused elements)
   static TextStyle get mono => GoogleFonts.jetBrainsMono(
         fontSize: 13,
         fontWeight: FontWeight.w600,
